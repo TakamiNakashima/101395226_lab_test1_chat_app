@@ -54,7 +54,6 @@ serverIO.on('connection', (socket) => {
             formatMessage('admin', `${user.username} has joined the chat`)
         )
 
-        // Send users and room info
         serverIO.to(user.room).emit("room_users", {
             room: user.room,
             users: getRoomUsers(user.room),

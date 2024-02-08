@@ -79,12 +79,3 @@ function outputUsers(users) {
     userList.appendChild(li);
   });
 }
-
-//Prompt the user before leave chat room
-// document.getElementById('leave-btn').addEventListener('click', () => {
-//   const leaveRoom = confirm('Are you sure you want to leave the chatroom?');
-//   if (leaveRoom) {
-//     window.location = '../index.html';
-//   } else {
-//   }
-// });
